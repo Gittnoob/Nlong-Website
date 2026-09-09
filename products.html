@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venoa Foods | Products</title>
+    <meta name="description" content="Browse frozen food products for wholesale grocery, foodservice, and club distribution.">
+    <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/global.css?v=mobile-review">
+    <script type="module" src="js/components.js?v=mobile-review"></script>
+    <script type="module" src="js/filters.js?v=sticky-filter-fade"></script>
+  </head>
+  <body class="products-page" data-page="products">
+    <div data-site-nav></div>
+    <div data-lead-modal></div>
+
+    <main>
+      <section class="page-hero page-hero-plain">
+        <div class="shell">
+          <div class="page-hero-frame">
+            <div class="page-hero-copy">
+              <h1>Portfolios designed for retail velocity and wholesale versatility.</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="shell">
+          <div class="filter-bar" data-filter-bar aria-label="Filter products by dietary type">
+            <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">All Products</button>
+            <button class="filter-chip" type="button" data-filter="vegetarian" aria-pressed="false">Vegetarian</button>
+            <button class="filter-chip" type="button" data-filter="pescatarian" aria-pressed="false">Pescatarian</button>
+            <button class="filter-chip" type="button" data-filter="vegan" aria-pressed="false">Vegan</button>
+          </div>
+
+          <p data-filter-empty role="status" hidden>No products in this category yet.</p>
+
+          <div class="product-grid">
+            <article class="product-card" data-product-type="vegetarian">
+              <div class="product-thumb">
+                <img src="assets/images/products/stuffed-eggplants.jpg" alt="Stuffed Eggplants plated and ready to serve" loading="lazy" decoding="async">
+              </div>
+              <div class="product-card-body">
+                <div class="product-meta"><span>Vegetarian</span></div>
+                <h3>Stuffed Eggplants</h3>
+                <p>Battered eggplant rounds with a red bean filling.</p>
+                <p class="product-ingredients"><strong>Main Ingredients:</strong> Eggplants, red beans.</p>
+              </div>
+            </article>
+            <article class="product-card" data-product-type="pescatarian">
+              <div class="product-thumb">
+                <img src="assets/images/products/battered-cod-filets.jpg" alt="Battered Cod Filets plated and ready to serve" loading="lazy" decoding="async">
+              </div>
+              <div class="product-card-body">
+                <div class="product-meta"><span>Pescatarian</span></div>
+                <h3>Battered Cod Filets</h3>
+                <p>Cod filets in a golden batter.</p>
+                <p class="product-ingredients"><strong>Main Ingredients:</strong> Cod.</p>
+              </div>
+            </article>
+            <article class="product-card" data-product-type="pescatarian">
+              <div class="product-thumb">
+                <img src="assets/images/products/veg-cod-cake.jpg" alt="Veg Cod Cake plated and ready to serve" loading="lazy" decoding="async">
+              </div>
+              <div class="product-card-body">
+                <div class="product-meta"><span>Pescatarian</span></div>
+                <h3>Veg Cod Cake</h3>
+                <p>Cod and vegetable cakes with a crisp crumb coating.</p>
+                <p class="product-ingredients"><strong>Main Ingredients:</strong> Cod.</p>
+              </div>
+            </article>
+            <article class="product-card" data-product-type="pescatarian">
+              <div class="product-thumb">
+                <img src="assets/images/products/panko-cod-fingers.jpg" alt="Panko Cod Fingers plated and ready to serve" loading="lazy" decoding="async">
+              </div>
+              <div class="product-card-body">
+                <div class="product-meta"><span>Pescatarian</span></div>
+                <h3>Panko Cod Fingers</h3>
+                <p>Cod fingers coated in crisp panko breadcrumbs.</p>
+                <p class="product-ingredients"><strong>Main Ingredients:</strong> Cod, panko.</p>
+              </div>
+            </article>
+            <article class="product-card" data-product-type="pescatarian" data-product-gallery>
+              <div class="product-thumb product-gallery">
+                <img class="is-active" src="assets/images/products/veggie-tempura-combo.jpg" alt="Veggie Tempura Combo plated and ready to serve" loading="eager" decoding="async" data-product-slide aria-hidden="false">
+                <img src="assets/images/products/veggie-tempura-combo-tray.jpg" alt="Shrimp and vegetable tempura combo in a plastic container" loading="eager" decoding="async" data-product-slide aria-hidden="true">
+                <button class="product-image-arrow product-image-prev" type="button" data-image-prev aria-label="Previous combo photo"><span aria-hidden="true">‹</span></button>
+                <button class="product-image-arrow product-image-next" type="button" data-image-next aria-label="Next combo photo"><span aria-hidden="true">›</span></button>
+                <span class="product-image-count" data-image-count aria-live="polite">1 / 2</span>
+              </div>
+              <div class="product-card-body">
+                <div class="product-meta"><span>Pescatarian</span></div>
+                <h3>Veggie Tempura Combo</h3>
+                <p>A tempura assortment of shrimp and mixed vegetables.</p>
+                <p class="product-ingredients"><strong>Main Ingredients:</strong> Shrimp, onions, pumpkin, carrots, shiitake mushrooms.</p>
+              </div>
+            </article>
+            <article class="product-card" data-product-type="pescatarian">
+              <div class="product-thumb">
+                <img src="assets/images/products/shrimp-tempura.jpg" alt="Shrimp Tempura plated and ready to serve" loading="lazy" decoding="async">
+              </div>
+              <div class="product-card-body">
+                <div class="product-meta"><span>Pescatarian</span></div>
+                <h3>Shrimp Tempura</h3>
+                <p>Shrimp in a light, crisp tempura batter.</p>
+                <p class="product-ingredients"><strong>Main Ingredients:</strong> Shrimp.</p>
+              </div>
+            </article>
+            <article class="product-card" data-product-type="vegetarian">
+              <div class="product-thumb">
+                <img src="assets/images/products/veggie-tempura-pattie.jpg" alt="Veggie Tempura Pattie plated and ready to serve" loading="lazy" decoding="async">
+              </div>
+              <div class="product-card-body">
+                <div class="product-meta"><span>Vegetarian</span></div>
+                <h3>Veggie Tempura Pattie</h3>
+                <p>Mixed vegetable patties in a golden tempura batter.</p>
+                <p class="product-ingredients"><strong>Main Ingredients:</strong> Onions, carrots.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </body>
+</html>

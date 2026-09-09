@@ -1,0 +1,9 @@
+<svg width="360" height="112" viewBox="0 0 360 112" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sam's Club">
+  <rect width="360" height="112" rx="20" fill="white"/>
+  <g transform="translate(30 25) rotate(45 31 31)">
+    <rect x="4" y="4" width="54" height="54" rx="8" fill="#0067A0"/>
+    <rect x="14" y="14" width="34" height="34" rx="6" fill="#00A3E0"/>
+  </g>
+  <text x="106" y="55" fill="#003E6B" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Sam's</text>
+  <text x="106" y="84" fill="#003E6B" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Club</text>
+</svg>

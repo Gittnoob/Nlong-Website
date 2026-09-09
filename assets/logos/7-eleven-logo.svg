@@ -1,0 +1,7 @@
+<svg width="360" height="112" viewBox="0 0 360 112" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="7-Eleven">
+  <rect width="360" height="112" rx="20" fill="white"/>
+  <rect x="26" y="21" width="72" height="72" rx="8" fill="#008061"/>
+  <rect x="34" y="29" width="56" height="56" rx="4" fill="white"/>
+  <path d="M44 41H82L62 83H50L66 50H44V41Z" fill="#E31B23"/>
+  <text x="122" y="70" fill="#008061" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">7-Eleven</text>
+</svg>

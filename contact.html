@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venoa Foods | Contact</title>
+    <meta name="description" content="Contact Venoa for sample boxes, custom quotes, and wholesale distribution inquiries.">
+    <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/global.css?v=mobile-review">
+    <script type="module" src="js/components.js?v=mobile-review"></script>
+  </head>
+  <body class="contact-page" data-page="contact">
+    <div data-site-nav></div>
+    <div data-lead-modal></div>
+
+    <main>
+      <section class="section">
+        <div class="shell contact-grid">
+          <h1 class="contact-heading">Let us know how we can help.</h1>
+
+          <div class="contact-form-shell">
+            <form id="contact-form" data-contact-form>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" required>
+                </div>
+                <div class="field">
+                  <label for="company">Company</label>
+                  <input id="company" name="company" type="text" required>
+                </div>
+                <div class="field">
+                  <label for="inquiryType">Inquiry Type</label>
+                  <select id="inquiryType" name="inquiryType" required>
+                    <option value="sample-box">Sample Box</option>
+                    <option value="custom-quote">Custom Quote</option>
+                    <option value="general-wholesale">General Wholesale</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="targetChannel">Target Channel</label>
+                  <input id="targetChannel" name="targetChannel" type="text" placeholder="Grocery, club, foodservice, importer" required>
+                </div>
+                <div class="field field-full">
+                  <label for="estimatedVolume">Estimated Volume</label>
+                  <input id="estimatedVolume" name="estimatedVolume" type="text" placeholder="Example: 2 containers/quarter or 50,000 units annually" required>
+                </div>
+                <div class="field field-full" data-project-details hidden>
+                  <label for="projectDetails">Project Details</label>
+                  <textarea id="projectDetails" name="projectDetails" placeholder="Share product brief, flavor direction, pack format, timing, and compliance requirements."></textarea>
+                </div>
+              </div>
+              <div class="btn-row" style="margin-top: 1.2rem;">
+                <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+                <button class="btn btn-secondary" type="button" data-open-modal>Need sample guidance?</button>
+              </div>
+
+              <p class="form-status" data-form-status aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </body>
+</html>
